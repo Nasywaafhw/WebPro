@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Deklarasi tipe dokumen HTML -->
+    <meta charset="UTF-8" />
+    <!-- Menentukan karakter set untuk halaman HTML -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Mengatur pengaturan viewport untuk responsivitas -->
+    <title>Profile Website Nasywa Afifah</title>
+    <!-- Menentukan judul halaman HTML -->
+  </head>
+
+  <body style="background-color: rgb(250, 237, 216)">
+    <!-- Menentukan warna latar belakang halaman -->
+
+    <header style="text-align: center">
+      <!-- Menentukan bagian header -->
+      <h1>Profil Pribadi</h1>
+      <!-- Menentukan judul header -->
+      <img
+        src="image/Foto_profile.jpg"
+        width="200"
+        height="200"
+        style="border-radius: 50%"
+      />
+      <!-- Menentukan gambar profile -->
+      <h2>Nasywa Afifah Wijaya</h1>
+      <!-- Menentukan judul header -->
+      <p>(Mahasiswi S1 Teknologi Informasi)</p>
+      <!-- Menentukan deskripsi tambahan -->
+    </header>
+
+    <hr />
+    <!-- Menambahkan pemisah horizontal -->
+
+    <article style="text-align: center">
+      <!-- Menentukan bagian artikel -->
+      <h1>Tentang Saya</h1>
+      <!-- Menentukan judul artikel -->
+      <p>Halo! Perkenalkan nama saya Nasywa Afifah Wijaya. Saat ini saya sedang menempuh pendidikan di Telkom University jurusan Teknologi Informasi angkatan 22.</p>
+      <!-- Menentukan isi artikel -->
+      <p>Saya lahir pada tanggal 09 Juni 2004. Asal saya dari Medan. Hobi saya masak,membuat kue,traveling, dan make up</p>
+    </article>
+
+    <div style="max-width: 600px; margin: 3em auto">
+      <!-- Menentukan div untuk tabel -->
+      <table border="1" width="100%">
+        <!-- Menentukan tabel dengan border dan lebar 100% -->
+        <thead>
+          <!-- Menentukan bagian header tabel -->
+          <tr>
+            <!-- Menentukan baris header tabel -->
+            <th>Skill</th>
+            <!-- Menentukan kolom header Skill -->
+            <th>Tingkat</th>
+            <!-- Menentukan kolom header Pengalaman Organisasi -->
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Menentukan bagian body tabel -->
+          <tr>
+            <!-- Menentukan baris body tabel -->
+            <td>
+              <!-- Menentukan kolom Skill -->
+              <ul>
+                <!-- Menentukan list untuk Skill -->
+                <li>HTML</li>
+                <!-- Menentukan item list Skill -->
+                <li>CSS</li>
+                <!-- Menentukan item list Skill -->
+                <li>C++</li>
+                <!-- Menentukan item list Skill -->
+                <li>MySQL</li>
+                <!-- Menentukan item list Skill -->
+                <li>Javascript</li>
+                <!-- Menentukan item list Skill -->
+                <li>Microsof World</li>
+                <!-- Menentukan item list Skill -->
+              </ul>
+            </td>
+            <td>
+              <!-- Menentukan kolom Pengalaman Organisasi -->
+              <ul>
+                <!-- Menentukan list untuk Tingkat -->
+                <li>Beginner</li>
+                <!-- Menentukan item list Tingkat -->
+                <li>Beginner</li>
+                <!-- Menentukan item list Tingkat -->
+                <li>Beginner</li>
+                <!-- Menentukan item list Tingkat -->
+                <li>Beginner</li>
+                <!-- Menentukan item list Tingkat -->
+                <li>Beginner</li>
+                <!-- Menentukan item list Tingkat -->
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <article>
+      <!-- Menentukan bagian artikel -->
+      <h1>Video Perkenalan</h1>
+      <!-- Menentukan judul artikel -->
+      <p>
+        Simak video lengkap tentang saya.
+      </p>
+      <!-- Menentukan isi artikel -->
+      <p>
+        <video controls>
+          <source src="video/video-about.webm" type="video/webm" />
+          <!-- Menentukan video -->
+        </video>
+      </p>
+    </article>
+
+    <div>
+      <!-- Menentukan div untuk form contact -->
+      <h1>Contact Me</h1>
+      <!-- Menentukan judul form contact -->
+      <form>
+        <!-- Menentukan form contact -->
+        <label for="email">Email</label>
+        <br />
+        <!-- Menentukan label untuk input email -->
+        <input type="email" name="email" placeholder="alamat email" />
+        <br />
+        <!-- Menentukan input email -->
+        <label for="message">Pesan</label>
+        <br />
+        <!-- Menentukan label untuk input pesan -->
+        <textarea
+          name="message"
+          placeholder="Tulis pesan anda..."
+          rows="4"
+          cols="80"
+        ></textarea>
+        <br />
+        <!-- Menentukan input pesan -->
+        <div class="form-actions">
+          <!-- Menentukan div untuk button submit -->
+          <button type="submit" class="btn-submit">Kirim</button>
+          <!-- Menentukan button submit -->
+        </div>
+      </form>
+      <nav>
+      <h2>Media Sosial saya :</h2>
+      <!-- Menentukan judul artikel -->
+        <a href="https://www.instagram.com/nasywaafifahwjy?igsh=ZzkybjhnY2Jua2E4&utm_source=qr" target="_blank">Instagram</a> | <!-- Tag 'a' untuk link -->
+        <a href="https://github.com/Nasywaafhw/WebPro" target="_blank">github</a> | <!-- Tag 'a' untuk link -->
+      </nav>
+    </div>
+
+    <footer style="text-align: center">
+      <!-- Menentukan bagian footer -->
+      <p>Copyright &copy; 2024 Nasywa Afifah Wijaya.</p>
+      <!-- Menentukan isi footer -->
+    </footer>
+  </body>
+</html>
